@@ -9,15 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58fafb-6719-4d6b-8c50-780bd13db57d" name="更改" comment="提交图书到数据库完成">
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/borrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/findBorrowBookDataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/findBorrowBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/returnBorrowBookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDao.java" afterDir="false" />
+    <list default="true" id="7b58fafb-6719-4d6b-8c50-780bd13db57d" name="更改" comment="后台数据基本完成">
       <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/service/ProductDaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/service/ProductDaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/borrow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +123,7 @@
       <updated>1717637284974</updated>
       <workItem from="1717637286426" duration="5308000" />
       <workItem from="1717652679156" duration="3007000" />
-      <workItem from="1717662250919" duration="13403000" />
+      <workItem from="1717662250919" duration="13859000" />
     </task>
     <task id="LOCAL-00001" summary="提交图书到数据库完成">
       <created>1717852520690</created>
@@ -138,15 +132,41 @@
       <option name="project" value="LOCAL" />
       <updated>1717852520690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="后台数据基本完成">
+      <created>1717920178795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717920178795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="后台数据基本完成">
+      <created>1717920191128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717920191128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交图书到数据库完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交图书到数据库完成" />
+    <MESSAGE value="后台数据基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台数据基本完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
