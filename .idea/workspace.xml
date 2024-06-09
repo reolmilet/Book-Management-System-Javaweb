@@ -9,53 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58fafb-6719-4d6b-8c50-780bd13db57d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/text01_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/text01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_15_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_15_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_15_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookShoppingSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/db/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/factory/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/filter/Filter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/service/ProductDaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/FindUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/addUsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/borrowBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/findAllBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/webapp/WEB-INF/lib/gson-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text01/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="7b58fafb-6719-4d6b-8c50-780bd13db57d" name="更改" comment="提交图书到数据库完成">
+      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/pojo/borrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/findBorrowBookDataServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/findBorrowBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/test/returnBorrowBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/dao/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/service/ProductDaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/text01/src/main/java/bookManagementSystem/service/ProductDaoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,12 +129,24 @@
       <updated>1717637284974</updated>
       <workItem from="1717637286426" duration="5308000" />
       <workItem from="1717652679156" duration="3007000" />
-      <workItem from="1717662250919" duration="6502000" />
+      <workItem from="1717662250919" duration="13403000" />
     </task>
+    <task id="LOCAL-00001" summary="提交图书到数据库完成">
+      <created>1717852520690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717852520690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交图书到数据库完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交图书到数据库完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
